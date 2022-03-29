@@ -1,17 +1,28 @@
-<!DOCTYPE html>
-<html lang="sp">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todos mis links</title>
-  </head>
-  <body>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo magnam
-      facilis pariatur suscipit nobis quod laboriosam natus modi. Officiis
-      numquam provident reiciendis similique exercitationem earum voluptates
-      distinctio corrupti. Omnis, eum?
-    </p>
-  </body>
-</html>
+{% extends 'layout/root.html' %} 
+<!--
+  Lista de las redes sociales
+-->
+{% block content %}
+<section class="row justify-content-center">
+  <div class="d-grid gap-2 col-md-4 col-sm-7">
+    <ul class="list-unstyled">
+      <li class="mt-4">
+        <a href="#" class="w-100 btn btn-outline-primary">
+          <span></span>Facebook
+        </a>
+      </li>
+      <li class="mt-4">
+        <a href="#" class="w-100 btn btn-outline-danger">
+          <span></span>Youtube
+        </a>
+      </li>
+      <li class="mt-4">
+        <a href="#" class="w-100 btn btn-outline-dark"><span></span>Tiktok</a>
+      </li>
+      <li class="mt-4">
+        <a href="#" class="w-100 btn btn-outline-info"><span></span>Paypal</a>
+      </li>
+    </ul>
+  </div>
+</section>
+{% endblock%}

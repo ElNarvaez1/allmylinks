@@ -19,5 +19,6 @@ from portafolio import views
 urlpatterns = [
     # Rutras que le servidor puede visitar
     # path('admin/', admin.site.urls),
-    path('myLinks/',views.myLinks)
+    path('myLinks/',views.myLinks,name='myLinks' ),
+    path('myLinks/about',views.about,name='about')
 ]

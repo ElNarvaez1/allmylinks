@@ -20,4 +20,7 @@ Ejecucion del entorno virtual (ya se debe de tener intalado vitualenv).
 ```
 
 Ejecutar la el servidor para visualizar la pagina web.
+```
+python manage.py runserver
+```
 
